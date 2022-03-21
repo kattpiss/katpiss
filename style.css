@@ -1,0 +1,58 @@
+html {
+  height: 100%;
+}
+body {
+  display: table;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+  min-width: 800px;
+  background-color:black;
+}
+body > div {
+  display: table-cell;
+}
+.left {
+  background: url('GIFs/bg.png');
+}
+.middle {
+  background: url('GIFs/bg5.jpg');
+  width: 500px;
+}
+.right {
+  background: url('GIFs/bg.png')
+}
+.sec {
+
+}
+h1 {
+  color:white;
+  font-size:100px;
+  text-align: center;
+  padding : 0;
+  margin : 0;
+}
+p {
+  color:white;font-size:50px;
+  font-family: Helvetica
+  text-align: center;
+  padding : 0;
+  margin : 0;
+}
+
+.image {
+  text-align: center;
+  padding : 0;
+  margin : 0;
+  display:inline-block;
+  font-size: 0;
+}
+.container {
+  text-align: center;
+  padding : 0;
+  margin : 0;
+  width=500px;
+  font-size: 0;
+}
